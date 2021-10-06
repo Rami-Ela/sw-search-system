@@ -1,0 +1,16 @@
+.ListElement {
+    width: 100%;
+    padding: 5px 0;
+    position: relative;
+}
+.ListElement:hover {
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ListElement-ChevronRight {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}

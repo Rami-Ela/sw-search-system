@@ -1,0 +1,25 @@
+.DetailCard{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 60%;
+}
+
+.DetailCard ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.DetailCard ul li{
+    padding: 5px 0;
+}
+
+.DetailCard-ArrowLeft {
+    position: absolute;
+    font-size: 20px;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}  
