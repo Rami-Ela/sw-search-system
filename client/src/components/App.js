@@ -45,6 +45,7 @@ function App() {
         :
           <>
             <input type="text" placeholder="search..." value={searchInput} onChange={(event) => setSearchInput(event.target.value)} onKeyDown={handleKeyDown} disabled={loading} className="App-input" />
+            
             <div className="App-ListContainer">
             {loading ? <p> Loading... </p> : 
               data.length && data.map(element => (

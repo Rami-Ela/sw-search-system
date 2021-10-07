@@ -22,4 +22,8 @@
     left: 10px;
     top: 10px;
     cursor: pointer;
+    transition: font-size 0.5s;
+}  
+.DetailCard-ArrowLeft:hover {
+    font-size: 22px;
 }  

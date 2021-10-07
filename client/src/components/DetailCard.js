@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import "../styles/DetailCard.css"
-import dateFormat from "dateformat";
 import { FaArrowLeft } from "react-icons/fa";
 
 function DetailCard(props) {
